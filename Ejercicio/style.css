@@ -1,24 +1,31 @@
 body {
-    background-color: #FFFFF;
+    background-color: #FFFF;
 }
 
 .container-img {
-    background-color: #E5E5E5;
+    background-color: #F0E4D7;
     width: 1440px;
     height: 189px;
     position: absolute;
     margin: auto 200px 0px 200px;
 }
 
+.container-img img {
+    width: 100px;
+    justify-content: center;
+    margin: 50px 600px;
+}
+
 .title {
-        background-color: #C4C4C4;
+        background-color: #F5C0C0;
         justify-content: center;
         width: 1440px;
         height: 60px;
         margin-left: 200px;
+        margin-top: 0px;
         position: relative;
         top: 160px;
-        color: #005677;
+        color: #FFFF;
 }
 
 p {
@@ -34,14 +41,16 @@ p {
 }
 
 main {
-    background-color: #FFFF;
-    height:1024px;
+    background-color: rgb(255, 255, 255);
+    height:800px;
     width:1440px;
-    margin:200px 200px 0px 200px;
+    margin:200px 200px 50px 200px;
+    padding-bottom: 8px;
+    margin-top: 200px;
 }
 
 .datos {
-    background-color: #C4C4C4;
+    background-color: #F5C0C0;
     Width: 1041px;
     Height:30px;
     Top:352px;
@@ -49,28 +58,22 @@ main {
     letter-spacing: 2px;
     font-size: 20px;
     font-family: 'Times New Roman';
-    color: #005677;
+    color: #FFFF;
     font-weight: bold;
-    padding:8px 20px 2px ;
+    padding:8px 1x 2px;
+    padding-left: 20px;
+    margin-top: 0px;
 
 }
-
-/*
-.datos li {
-    padding: 0px;
-}
-
-.list .datos {
-    
-}
-*/
 
 .list {
     height: 459px;
     width: 1041px;
-    background-color:;
+    background-color:rgb(255, 255, 255);
     left: 225px;
     position: relative;
+    padding:8px 1x 2px ;
+
 }
 
 ul li {
@@ -82,7 +85,7 @@ ul li {
 .footer {
     height: 37px;
     width: 1440px;
-    background-color: #005677;
+    background-color:#F5C0C0;
     margin: 0 200px;
 }
 
@@ -94,10 +97,37 @@ ul li {
     color: white;
     font-style: normal;
     margin:auto;
-    padding: 1px;
+    padding: 7px;
     margin-top: 0px;
 }
+/*img {
+    width: 20px;
+    height: 20px;
+    margin-left: 900px;
+    padding:0px;
+}*/
 
-img p {
+.instagram {
+    width:20px;
+    height:20px;
+    margin-left:900px;
+    padding:0px;
+    position: absolute;
+}
 
+.linkedin {
+    margin-left:950px;
+    width:20px;
+    height:20px;
+}
+
+.sobre-mi h2 {
+    color: #F5C0C0;
+    text-decoration:none;
+    margin-top:300px;
+    
+}
+
+div h2 {
+    
 }
