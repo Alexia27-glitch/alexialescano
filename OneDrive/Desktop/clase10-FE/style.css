@@ -1,0 +1,105 @@
+.encabezado {
+    width: 100%;
+    height: 38px;
+    background-color: #1CD1B0;
+    margin:0px;
+    padding-left: 10px;
+}
+
+.encabezado p {
+    margin: 20px ;
+    padding-top: 10px;
+    font-family: Roboto;
+    margin: 0px;
+}
+
+.caja-heroes {
+    width: 100%;
+    height: 95px;
+    background-color:#00669F;
+    padding: 10px;
+    margin-top: 0px;  
+}
+
+main {
+    width: 80%;
+    height: 1020px;
+}
+
+div .derechos {
+    width: 100%;
+    height: 31px;
+    background-color:#00669F; 
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+.batman {
+    position: relative;
+    left: 300px;
+    top: 100px;
+    width: 300px;
+    background-color: #d8d8d8;
+}
+
+.harley {
+    position: relative;
+    left: 850px;
+    width: 300px;
+    bottom: 450px;
+    background-color: #d8d8d8;
+}
+
+.batman2 {
+    width: 300px;
+    position: relative;
+    left: 1400px;
+    bottom: 1009px;
+    background-color: #d8d8d8;
+}
+
+.fondo {
+    position: relative;
+    left: 1px;
+}
+
+.icono {
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+    border-radius: ;
+}
+
+.corazon {
+    position: relative;
+    right: 100px;
+    bottom: 270px;
+}
+
+h2 {
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+}
+
+.caja-descripcion {
+    width: 260px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    color: #333333;
+}
+
+
+.boton {
+    width: 80px;
+    height: 50px;
+    background-color: #00669F;
+    padding-top: 2px;
+    padding-left:20px;
+    position: relative;
+    left:100px;
+    bottom: 30px;
+
+}
