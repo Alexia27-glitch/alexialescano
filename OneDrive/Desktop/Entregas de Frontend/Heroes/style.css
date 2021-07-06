@@ -1,0 +1,267 @@
+.encabezado {
+    
+    height: 38px;
+    background-color: #D1891C;
+    margin:0px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado p {
+    margin: 20px ;
+    padding-top: 10px; 
+    margin: 0px;
+}
+
+
+
+.caja-cards {
+    height: 75px;
+    background-color:#00669F;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20px;
+    
+}
+
+
+.batman {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #F3F3F3;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+
+.harley {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #F3F3F3;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.harley .boton {
+    position: relative;
+    top: 6px;
+}
+
+.superman {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #F3F3F3;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.superman .boton {
+    position: relative;
+    top: -29px;
+}
+
+.mujer-maravilla {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #F3F3F3;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.mujer-maravilla .boton {
+    position: relative;
+    top: -45px;
+}
+
+.fondo {
+    position: relative;
+    left: 1px;
+    top: -3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.icono {
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+    border-radius:50%;
+    width: 100px;
+}
+
+
+.corazon {
+    position: relative;
+    top: -269px;
+    left:20px ;
+    width: 30px;
+    height: 25px;
+}
+
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: -80px;
+    left: -2px;
+}
+
+.caja-descripcion {
+    width: 260px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    color: white;
+    border-radius: 3px;
+    width: 90px;
+    height: 40px;
+    background-color: #00669F;
+    
+
+}
+.pie-de-pagina{
+    position: relative;
+}
+div .derechos {
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    /* bottom: -100px; */
+    padding-top: 17px;
+    height: 40px;
+    background-color:#00669F; 
+    color: rgb(255, 255, 255);
+}
+
+
+.git img {
+    background-color: red;
+    position: absolute;
+    right: 39px;
+    width: 80px;
+    bottom: 0;
+    width: 95px;
+}
+/*
+.git img {
+    
+    width: 95px;
+    background-color: red;
+}
+*/
+
+.eclipse img {
+    width: 70px;
+    position: absolute;
+    right: 40px;
+    top: 200px;
+}
+
+.mas img {
+    position: absolute;
+    right: 60px;
+    top:220px ;
+    width: 30px;
+}
+
+.boton-mas {
+    position: fixed;
+    right: -30px;
+    top: 230px;
+    width: 5px;
+    height: 5px;
+}
+
+
+@media (max-width: 480px) {
+    /*Mobile*/
+    main {
+        display: flex;
+        flex-direction: column;1
+        
+        flex-wrap: wrap;
+        background-color: yellow;
+    }
+
+    .batman {
+        margin: 20px 0px 20px;
+    }
+
+    .harley {
+        margin-bottom: 20px;
+    }
+
+    .superman {
+        margin-bottom: 20px;
+    }
+
+    .mujer-maravilla {
+        margin-bottom: 20px;
+    }
+
+    .batman .boton {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .harley .boton {
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media (min-width: 768px) {
+    /*Tablet*/
+    .batman {
+        margin: 20px 0px 20px;
+    }
+
+    .harley {
+        margin-bottom: 20px;
+    }
+
+    .superman {
+        margin-bottom: 20px;
+    }
+
+    .mujer-maravilla {
+        margin-bottom: 20px;
+    }
+
+    .batman .boton {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .harley .boton {
+        position: relative;
+        top: -20px;
+    }
+}
